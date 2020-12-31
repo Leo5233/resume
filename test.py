@@ -24,7 +24,7 @@ class test_reverse(unittest.TestCase):
                                 }
                               }
                             }
-    
+        self.a=[1,2,3,4]
     def test1(self):
         middle = self.apart(self.input_value)
         self.assertEqual(middle, self.middle)
@@ -51,6 +51,7 @@ class test_reverse(unittest.TestCase):
 
     def tearDown(self):
         self.input_value = None
+        self.output_value = None
 
 if __name__ == '__main__':
     unittest.main()
