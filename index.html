@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leo profile</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel='stylesheet' href="main.css">
+<link
+  href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Noto+Sans+TC:wght@400;500;700&display=swap"
+  rel="stylesheet">
+<script src="https://kit.fontawesome.com/88d1fc15c6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <label class="navbar-label" for="navbar-toggle">
+        <div class="hamburger ls">
+          <div class="line ls"></div>
+        </div>
+      </label>
+      <span class="nav-title">
+        謝昀澤
+        <input type="checkbox" id="navbar-toggle" class="navbar-toggle d-none">
+        <div class="selection">
+          <ul class="nav-list">
+            <li class="nav-item" id="works">作品</li>
+            <li class="nav-item"><a href="#skills">技能</a></li>
+            <li class="nav-item"><a href="#experiences">工作經歷</a></li>
+          </ul>
+        </div>
+      </span>
+      <div class="works-panel d-none" id="works-panel" data-id>
+        <ul class="work-list">
+          <li class="work" id="works"><a href="https://leo5233.github.io/capstone-starter/" target="_blank">Spotify
+              API</a></li>
+          <li class="work"><a href="https://leo5233.github.io/shirt-cart/" target="_blank">服飾網站</a></li>
+          <li class="work"><a href="https://leo5233.github.io/animal-planet/" target="_blank">動物星球</a></li>
+          <li class="work" id="works"><a href="https://leo5233.github.io/play-card/" target="_blank">紙牌遊戲</a></li>
+          <li class="work"><a href="https://leo5233.github.io/todoList/" target="_blank">Todo List</a></li>
+          <li class="work"><a href="https://leo5233.github.io/drink-POS/" target="_blank">飲料POS機</a></li>
+          <li class="work"><a href="https://leo5233.github.io/movie-list/" target="_blank">Movies List</a></li>
+        </ul>
+      </div>
+    </nav>
+  
+  </header>
+  
+  <main>
+    <!-- personal-info section -->
+    <div class="profile">
+      <div class="avatar">
+        <img class="avatar-img" src="https://miro.medium.com/v2/resize:fill:176:176/1*GOySFZRfjoJScFgtse5Ukw.jpeg" alt="">
+      </div>
+      <h1 class="name">
+        Leo Hsieh
+      </h1>
+      <div class="social-media">
+        <a class="social-media-link" href="https://github.com/Leo5233" target="_blank">
+          <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="" class="github">
+        </a>
+  
+        <a class="social-media-link" href="mailto:leohsieh53@gmail.com">
+          <i class="fas fa-envelope fa-lg"></i>
+        </a>
+      </div>
+      <div class="title">
+        網頁前端工程師 | 台北
+      </div>
+      <p class="description" id="skills">
+        您好我是Leo，之前是一名測試工程師，為了轉職前端到AlphaCamp學習前端相關專業技能，目前已研修完相關課程，正努力成為一名前端工程師，希望我的專長能夠對您有所幫助。
+      </p>
+    </div>
+    <!-- skill-section  -->
+    <div class="text">
+      <h2>專業技能</h2>
+      <div class="skill-icons">
+        <img src="https://raw.githubusercontent.com/Leo5233/source/master/resume/ai.png"
+          alt="Illustrator" class="skill-icon">
+        <img src="https://raw.githubusercontent.com/Leo5233/source/master/resume/ps.png" alt="photoshop"
+          class="skill-icon">
+        <img
+          src="https://raw.githubusercontent.com/Leo5233/source/master/resume/html.png"
+          alt="html" class="skill-icon">
+        <img src="https://raw.githubusercontent.com/Leo5233/source/master/resume/css.png" alt="css" class="skill-icon">
+        <img src="https://raw.githubusercontent.com/Leo5233/source/master/resume/js.png"
+          alt="javascript" class="skill-icon">
+        <img
+          src="https://raw.githubusercontent.com/Leo5233/source/master/resume/sql.png"
+          alt="SQL" class="skill-icon">
+        <img src="https://raw.githubusercontent.com/Leo5233/source/master/resume/react.png"
+          alt="react" class="skill-icon">
+        <img src="https://raw.githubusercontent.com/Leo5233/source/master/resume/python.png" alt="python" class="skill-icon">
+      </div>
+  
+      <!-- skills  -->
+      <div class="skills">
+        <div class="skill">
+          <h3 class="skill-name">網頁切版</h3>
+          <p class="skill-description">
+            對於UI/UX有基礎認識，並且能用繪圖軟體繪製設計稿。同時也從設計稿轉換成wire frame和元件拆分，並利用HTML、CSS、Javascript完成網頁切版
+          </p>
+        </div>
+        <div class="skill">
+          <h3 class="skill-name">網站開發</h3>
+          <p class="skill-description">
+            能夠製作RWD、操作 DOM 事件，達成多媒體友善的介面，並具有使用 AJAX 來動態呈現網頁內容，且串接後端 API 等前端能力，並使用react框架做整合。
+          </p>
+        </div>
+        <div class="skill">
+          <h3 class="skill-name">網路爬蟲</h3>
+          <p class="skill-description">
+            可以用python達成網路爬蟲、處理資料，並製作相關視覺化圖表，且能透過SQL語言和資料庫溝通。
+          </p>
+        </div>
+      </div>
+      <!-- experience-section   -->
+      <h2 class="job-experience">工作經歷</h2>
+      <div class="experiences" id="experiences">
+  
+        <!--  experience  -->
+        <div class="experience-item">
+          <h3 class="job-title">餐飲業</h3>
+          <span class="company"><i class="far fa-building"></i>聖保羅和一之軒</span>
+          <span class="duration"><i class="far fa-calendar-alt"></i>2016 年 10 月 - 2020 年 5 月</span>
+          <p>
+            負責接洽門市訂單、安排生產流程、盤點庫存、產品生產與備料、帶領新人、支援其他部門、環境整理。
+          </p>
+        </div>
+        <hr>
+        <div class="experience-item">
+          <h3 class="job-title">測試工程師</h3>
+          <span class="company"><i class="far fa-building"></i>亞旭電腦</span>
+          <span class="duration"><i class="far fa-calendar-alt"></i>2021 年 2 月 - 2023 年 3 月</span>
+          <p>
+            主要產品為小型基站、無線分享器、代工電子產品。職務內容為洽談產品測試治具開發、撰寫測試程式和維護、測試方法技轉、撰寫技術文件、架設初次生產環境、NPI產品硬件功能測試
+          </p>
+        </div>
+        <hr>
+        <div class="experience-item">
+          <h3 class="job-title">學習前端技能</h3>
+          <span class="company"><i class="far fa-building"></i>Alpha Camp</span>
+          <span class="duration"><i class="far fa-calendar-alt"></i>2023 年 6 月 - 2023 年 10 月</span>
+          <p>
+            學習HTML、CSS、Javascript、SQL、react，以及學習user story、persona等的前期user相關調查，及專案製作和學習業界案例。
+          </p>
+        </div>
+      </div>
+    </div>
+  </main>
+<script src="main.js"></script>
+</body>
+</html>
